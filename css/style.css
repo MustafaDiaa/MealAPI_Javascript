@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.form {
+  width: 80%;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.form-control:active {
+  background-color: black;
+}
+
+.nav {
+  width: 10%;
+  height: 100vh;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+.layer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 120%;
+  transition: 1s;
+  background-color: rgba(255, 255, 255, 0.286);
+}
+
+.layer p {
+  font-size: 30px;
+}
+
+.item:hover .layer {
+  top: 0%;
+}
+
+#myRow img {
+  height: 200px;
+}
+
+#itemIngredients {
+  height: 200px;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+}
+
+#itemArea {
+  color: #fff;
+}
+
+.badge {
+  font-size: 17px;
+  margin: 10px 5;
+}
+
+#myMealInstruction {
+  color: #fff;
+}
+
+#myMealInstruction a {
+  margin: 20px 5;
+}
+
+.contactContainer {
+  height: 100vh;
+}
+
+.alert {
+  display: none;
+}
